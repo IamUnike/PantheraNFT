@@ -33,6 +33,10 @@ img{
 	display: none;
 }
 
+#bars{
+    display: none;
+}
+
 .header-section{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -63,7 +67,7 @@ a{
 
 a:hover{
     border-top: 1px solid #333;
-    border-bottom: 3px solid #333;
+    border-bottom: 2px solid #333;
     border-radius: .7em;
 }
 
@@ -107,7 +111,8 @@ a:hover{
     justify-self: flex-start;
     align-self: flex-start;
     font-size: 1.2em;
-    transition: .5s;
+    transition: 0.1s;
+    cursor: button;
 }
 
 .main-text button{
@@ -119,9 +124,10 @@ a:hover{
     padding: 1em 1.5em;
 }
 
+
 .main-text button:hover, .mode button:hover, .whitepaper-btn:hover{
-    border-top: 1.5px solid #333;
-    border-bottom: 4px solid #333;
+    border-top: 1px solid #333;
+    border-bottom: 2px solid #333;
     border-radius:1.5em;
     background-color: transparent;
     color: black;
@@ -189,7 +195,7 @@ a:hover{
     outline: none;
     border-radius: 2em;
     font-size: 1.2em;
-    transition: .7s;
+    transition: .1s;
 } 
 
 .whitepaper-btn:hover{
@@ -356,7 +362,7 @@ swiper-slide img {
 }
 
 .team-desc{
-    padding: 1em;
+    padding:1em .5em 0 ;
     color: black;
 }
 
@@ -605,12 +611,10 @@ swiper-slide img {
     margin-top:1em;
 }
 
-
 .main-image{
     width: 250px;
     height: 210px;
 }
-
 
 
 .about-container{
@@ -744,8 +748,6 @@ swiper-slide img{
 h2{
 	font-size:1.3em;
 }
-
-
 
 
 }
