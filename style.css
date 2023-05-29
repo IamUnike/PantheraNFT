@@ -29,7 +29,7 @@ img{
     color: black;
 }
 
-.fa-bars, .mobmenu{
+.mobmenu{
 	display: none;
 }
 
@@ -143,9 +143,44 @@ a:hover{
 }
 
 
+
 .about-section{
     background-color: #333;
     color: white;
+}
+
+.about-container{
+    width:80%;
+}
+	
+
+.about-area{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 3em;
+
+    border-right: 2px inset crimson;
+
+    border-left: 2px inset crimson;
+
+    border-radius: 3em;
+
+    padding: 1.5em;
+
+    line-height: 2em;
+	
+font-size: .9em;
+font-family: Arial;
+	
+	
+
 }
 
 
@@ -174,18 +209,7 @@ a:hover{
     transform: rotate3d(1,2,3,25deg);
 }
 
-.about-area{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 3em;
-    border-right: 2px inset crimson;
-    border-left: 2px inset crimson;
-    border-radius: 3em;
-    padding: 1.5em;
-    line-height: 1.5em;
-}
+
 
 .whitepaper-btn{
     padding: 1em 2em;
@@ -538,6 +562,8 @@ swiper-slide img {
 .mobmenu i:hover{
     background-color:white;
 }
+	
+	
 
 .fa-bars{
     color: black;
@@ -548,6 +574,12 @@ swiper-slide img {
 .fa-bars:hover{
     background-color: #333;
     color: white;
+}
+	
+#bars{
+
+display:block;
+
 }
 
 .mobmenu li{
